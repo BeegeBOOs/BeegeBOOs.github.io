@@ -13,7 +13,7 @@ section {
   height: 100vh;
   overflow: hidden;
   background-color: rgb(114, 0, 0);
-    animation: anim_color 12s linear infinite;
+  animation: anim_color 12s linear infinite;
 }
 
 .text {
@@ -21,10 +21,12 @@ section {
   position: relative;
   /* transform: skewy(28deg); */
 }
+
 @keyframes anim_color {
-  0%{
+  0% {
     filter: hue-rotate(0deg);
   }
+
   100% {
     filter: hue-rotate(360deg);
   }
@@ -39,8 +41,8 @@ section {
   line-height: 1em;
   white-space: nowrap;
   text-shadow: calc((var(--x)*0.3)*0.3) 10px 0 rgba(255, 255, 255, 0.1);
-transform: translatex(calc((0% - var(--x) *var(--i))*0.3));
-transform: translatex(calc((0% - var(--y) *var(--i))*0.3));
+  transform: translatex(calc((0% - var(--x) *var(--i))*0.3));
+  transform: translatex(calc((0% - var(--y) *var(--i))*0.3));
 }
 
 .text h2 span {
@@ -51,6 +53,7 @@ transform: translatex(calc((0% - var(--y) *var(--i))*0.3));
   color: transparent;
   -webkit-text-stroke: 1px #fff;
 }
+
 .knopka a {
   margin: 10px;
   background: #fff;
@@ -63,11 +66,33 @@ transform: translatex(calc((0% - var(--y) *var(--i))*0.3));
   color: #172434;
   font-size: 1.8em;
   font-weight: 900;
-box-shadow: 5px 5px 5px #172434;
+  box-shadow: 5px 5px 5px #172434;
 }
+
 .knopka a .icon {
   position: relative;
   display: block;
   line-height: 50px;
   text-align: center;
+}
+
+@media (max-width: 1020px) {
+  .text h2 {
+    text-shadow: 10px 10px 0 rgba(255, 255, 255, 0.1);
+    animation: rot 30s linear infinite;
+  }
+
+  @keyframes rot {
+    0% {
+      transform: translatex(-400px);
+    }
+
+    100% {
+      transform: translatex(400px);
+    }
+
+    0% {
+      transform: translatex(-400px);
+    }
+  }
 }
