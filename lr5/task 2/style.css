@@ -126,7 +126,7 @@
 
 @media (max-width: 1020px) {
     .selection3 img:nth-child(3) {
-            bottom: 3vw;
+            bottom: 20px;
         animation: ship_m 30s ease-in-out infinite;
     }
 
