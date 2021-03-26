@@ -12,15 +12,18 @@
     bottom: 50%;
     z-index: 1;
     width: 80%;
-animation: cloud 10s ease-in-out infinite;
+    animation: cloud 10s ease-in-out infinite;
 }
+
 @keyframes cloud {
     0% {
         transform: translate(0px, 100px);
     }
-25% {
-    transform: translate(200px, 0px);
-}
+
+    25% {
+        transform: translate(200px, 0px);
+    }
+
     75% {
         transform: translate(-200px, 0px);
     }
@@ -29,51 +32,93 @@ animation: cloud 10s ease-in-out infinite;
         transform: translate(0px, 100px);
     }
 }
+
 .selection3 img:nth-child(2) {
     width: 100%;
-    bottom: -10px;
+    bottom: -1%;
     z-index: 3;
-animation: waves 6s ease-in-out infinite;
+    animation: waves 6s ease-in-out infinite;
 }
 
 @keyframes waves {
     0% {
-        transform: translateY(10px);
+        transform: translateY(0%);
     }
 
     50% {
-        transform: translateY(0px);
+        transform: translateY(15%);
 
     }
 
     100% {
-        transform: translateY(10px);
+        transform: translateY(0%);
     }
 }
 
 .selection3 img:nth-child(3) {
     left: 6%;
-    bottom: 6%;
+    bottom: 5vw;
     width: 20%;
     z-index: 2;
-animation: ship 6s ease-in-out infinite;
+    animation: ship 30s ease-in-out infinite;
 }
+
 @keyframes ship {
     0% {
-        transform: translate(0px, 10px);
+        transform: translate(0%);
+    }
+
+    15% {
+        transform: translate(180%);
+    }
+
+    30% {
+        transform: translate(190%);
+    }
+
+    35% {
+        transform: translate(195%);
+    }
+
+    40% {
+        transform: translate(200%);
+    }
+
+    45% {
+        transform: translate(220%);
     }
 
     50% {
-        transform: translate(500px, 0px);
+        transform: translate(225%);
+    }
+
+    55% {
+        transform: translate(230%);
+    }
+
+    65% {
+        transform: translate(260%);
+    }
+
+    70% {
+        transform: translate(265%);
+    }
+
+    75% {
+        transform: translate(275%);
+    }
+
+    95% {
+        transform: translate(-5%);
     }
 
     100% {
-        transform: translate(0px, 10px);
+        transform: translate(0%);
     }
 }
 
 .selection3 img:nth-child(4) {
-    bottom: 0px;
+    bottom: 0%;
     width: 95%;
     z-index: 1;
 
