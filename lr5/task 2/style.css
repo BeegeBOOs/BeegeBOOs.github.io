@@ -123,3 +123,63 @@
     z-index: 1;
 
 }
+
+@media (max-width: 1020px) {
+    .selection3 img:nth-child(3) {
+        animation: ship_m 30s ease-in-out infinite;
+    }
+
+    @keyframes ship_m {
+        0% {
+            transform: translate(0%);
+        }
+
+        15% {
+            transform: translate(40%);
+        }
+
+        30% {
+            transform: translate(45%);
+        }
+
+        35% {
+            transform: translate(48%);
+        }
+
+        40% {
+            transform: translate(50%);
+        }
+
+        45% {
+            transform: translate(60%);
+        }
+
+        50% {
+            transform: translate(63%);
+        }
+
+        55% {
+            transform: translate(65%);
+        }
+
+        65% {
+            transform: translate(80%);
+        }
+
+        70% {
+            transform: translate(83%);
+        }
+
+        75% {
+            transform: translate(88%);
+        }
+
+        95% {
+            transform: translate(-5%);
+        }
+
+        100% {
+            transform: translate(0%);
+        }
+    }
+}
