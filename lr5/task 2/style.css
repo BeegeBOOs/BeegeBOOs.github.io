@@ -12,7 +12,7 @@
     bottom: 50%;
     z-index: 1;
     width: 80%;
-    animation: cloud 10s ease-in-out infinite;
+    animation: cloud 20s ease-in-out infinite;
 }
 
 @keyframes cloud {

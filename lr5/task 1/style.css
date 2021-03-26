@@ -8,6 +8,7 @@
 }
 
 .selection2 .main-block {
+    transform: scale(1.5);
     width: 300px;
     height: 300px;
     border: 1px solid black;
