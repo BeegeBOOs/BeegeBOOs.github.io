@@ -67,50 +67,9 @@
     0% {
         transform: translate(0%);
     }
-
-    15% {
-        transform: translate(80%);
-    }
-
-    30% {
-        transform: translate(90%);
-    }
-
-    35% {
-        transform: translate(95%);
-    }
-
-    40% {
-        transform: translate(100%);
-    }
-
-    45% {
-        transform: translate(120%);
-    }
-
-    50% {
-        transform: translate(125%);
-    }
-
-    55% {
-        transform: translate(130%);
-    }
-
-    65% {
-        transform: translate(160%);
-    }
-
-    70% {
-        transform: translate(165%);
-    }
-
-    75% {
-        transform: translate(175%);
-    }
-
-    95% {
-        transform: translate(-5%);
-    }
+50% {
+    transform: translate(90%);
+}
 
     100% {
         transform: translate(0%);
