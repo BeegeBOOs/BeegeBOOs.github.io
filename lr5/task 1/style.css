@@ -1,0 +1,59 @@
+.selection2 .main-block,
+.selection2 .house,
+.selection2 .roof,
+.selection2 .chimney,
+.selection2 .door,
+.selection2 .window {
+    position: absolute;
+}
+
+.selection2 .main-block {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+
+}
+
+.selection2 .house {
+    left: 25%;
+    bottom: 0px;
+    width: 150px;
+    height: 150px;
+    background: coral;
+}
+
+.selection2 .roof {
+    left: calc(50% - 110px);
+    bottom: 150px;
+    width: 0;
+    height: 0;
+    border-left: 110px solid transparent;
+    border-right: 110px solid transparent;
+    border-bottom: 100px solid red;
+}
+
+.selection2 .chimney {
+    bottom: calc(50% + 50px);
+    left: calc(50% + 30px);
+    width: 20px;
+    height: 60px;
+    background: black;
+}
+
+.selection2 .door {
+    bottom: 0px;
+    left: calc(50% - 60px);
+    width: 60px;
+    height: 90px;
+    background: brown;
+    z-index: 2;
+}
+
+.selection2 .window {
+    left: calc(50% + 20px);
+    bottom: 40px;
+    width: 40px;
+    height: 40px;
+    background: cyan;
+    z-index: 2;
+}

@@ -1,0 +1,80 @@
+.selection3 .title {
+    margin: 0;
+    background-color: #7fcdc6;
+}
+
+.selection3 img {
+    position: absolute;
+}
+
+.selection3 img:nth-child(1) {
+    right: 0;
+    top: 20%;
+    z-index: 1;
+    width: 80%;
+animation: cloud 10s ease-in-out infinite;
+}
+@keyframes cloud {
+    0% {
+        transform: translate(0px, 100px);
+    }
+25% {
+    transform: translate(200px, 0px);
+}
+    75% {
+        transform: translate(-200px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 100px);
+    }
+}
+.selection3 img:nth-child(2) {
+    width: 100%;
+    bottom: -10px;
+    z-index: 3;
+animation: waves 6s ease-in-out infinite;
+}
+
+@keyframes waves {
+    0% {
+        transform: translateY(10px);
+    }
+
+    50% {
+        transform: translateY(0px);
+
+    }
+
+    100% {
+        transform: translateY(10px);
+    }
+}
+
+.selection3 img:nth-child(3) {
+    left: 6%;
+    bottom: 6%;
+    width: 20%;
+    z-index: 2;
+animation: ship 6s ease-in-out infinite;
+}
+@keyframes ship {
+    0% {
+        transform: translate(0px, 10px);
+    }
+
+    50% {
+        transform: translate(500px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 10px);
+    }
+}
+
+.selection3 img:nth-child(4) {
+    bottom: 2%;
+    width: 95%;
+    z-index: 1;
+
+}
