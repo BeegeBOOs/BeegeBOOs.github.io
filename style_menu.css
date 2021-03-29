@@ -71,7 +71,7 @@ nav ul li a .text {
 }
 
 nav ul li:hover a .text {
-  opacity: 100;
+  opacity: 1;
   color: #ffffff;
 }
 
