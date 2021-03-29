@@ -6,15 +6,12 @@
     padding: 10px;
   }
 
-.selection7 h1::before {
+.selection7 h1::before,
+ h1::after {
+     margin: 10px;
+     border-radius: 25%;
     content:""; 
-    min-width: 30vw;
-    height: 6px;
-    background: #fff;
-}
-.selection7 h1::after {
-    content:""; 
-    min-width: 30vw;
-    height: 6px;
+    min-width: 28vw;
+    height: 3px;
     background: #fff;
 }

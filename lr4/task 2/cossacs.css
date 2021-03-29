@@ -42,7 +42,7 @@
 }
 
 .selection3 p:nth-child(even) {
-    border-radius: 10px;
+    border-radius: 8px;
     color: #000;
     background-color: lightgrey;
 }
