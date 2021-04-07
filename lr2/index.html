@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/img/html5-brands.svg">
+  <link rel="stylesheet" href="/lr2/style.css">
+  <link rel="stylesheet" href="/lr2/style_menu.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <title>Головна</title>
+</head>
+
+<body>
+  <nav>
+    <div class="control">
+      <ul>
+        <li>
+          <a href="#about">
+            <span class="icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <span class="text">Про мене</span>
+          </a>
+        </li>
+        <li>
+          <a href="#educ">
+            <span class="icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span>
+            <span class="text">Освіта</span>
+          </a>
+        </li>
+        <li>
+          <a href="#selection">
+            <span class="icon"><i class="fa fa-address-card" aria-hidden="true"></i></span>
+            <span class="text">Досвід</span>
+          </a>
+        </li>
+        <li>
+          <a href="#portfolio">
+            <span class="icon"><i class="fa fa-briefcase" aria-hidden="true"></i></span>
+            <span class="text">Портфоліо</span>
+          </a>
+        </li>
+        <li>
+          <a href="#header">
+            <span class="icon"><i class="fa fa-chevron-up" aria-hidden="true"></i></span>
+            <span class="text">Назад</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="toggle"></div>
+  </nav>
+  <div class="selection8" id="header">
+    <div class="title">
+      <div class="content">
+        <h3>Site created by</h3>
+        <h1>Vitalii Nahorniak</h1>
+        <h3>Instagram page: @Vitnag</h3>
+      </div>
+    </div>
+  </div>
+  <div class="selection1" id="about">
+    <div class="title">
+      <div class="content">
+        <h2>28.02.2003</h2>
+        <h3>Я Віталій Нагорняк</h3>
+        <p>Незалежний фронт-енд веб-розробник із багатим досвідом та навичками програмування такими
+          мовами, як: C/C++, Java, javascript, Swift, Python.</p>
+        <a href="tel:не дзвонии мені)">Телефон</a>
+        <a href="mailto:vitalii.nahorniak-pi1802@kep.nung.edu.ua">Email</a>
+      </div>
+    </div>
+  </div>
+  <div class="selection2" id="educ">
+    <div class="title">
+      <div class="content">
+        <h2>:)</h2>
+        <h3>Навчаюсь в коледжі електронних приладів</h3>
+        <p>Закінчив загальноосвітню школу I-III ступенів</p>
+        <a href="#">Назад</a>
+      </div>
+    </div>
+  </div>
+  <div class="selection3" id="selection">
+    <div class="title">
+      <div class="content">
+        <h3>Хороше володіння: HTML, CSS, JS</h3>
+        <p>-Розмовний рівень англійської мови</p>
+        <p>-Знання PhotoShop</p>
+        <p>-Знання Illustrator</p>
+        <p>-Володіння MySQL, PGadmin</p>
+        <a href="#">Назад</a>
+      </div>
+    </div>
+  </div>
+  <div class="selection4" id="portfolio">
+    <div class="title2">
+      <img src="/img/yancy-min-842ofHC6MaI-unsplash (Large).jpg" alt="">
+      <div class="content">
+        <h3>Лабораторні роботи</h3>
+
+        <a href="/lr4/index.html">4</a>
+        <a href="/lr5/index.html">5</a>
+        <a href="#">6</a>
+        <a href="#">7</a>
+        <a href="#">8</a>
+        <a href="#">9</a>
+        <a href="#">10</a>
+      </div>
+    </div>
+  </div>
+  <div class="selection5">
+    <div class="title2">
+      <img src="/img/scott-evans-f_CO1zX5g6o-unsplash.jpg" alt="">
+      <div class="content">
+        <h3>Рубрика ЕКСПЕРИМЕНТИ</h3>
+        <p>+--------------------+</p>
+        <a href="/template1/index.html">Background</a>
+      </div>
+    </div>
+  </div>
+  <div class="selection6">
+    <div class="title2">
+      <img src="/img/scott-evans-f_CO1zX5g6o-unsplash.jpg" alt="">
+      <div class="content">
+        <h3>NO INFO</h3>
+        <p>+------+</p>
+        <a href="#">Перейти</a>
+      </div>
+    </div>
+  </div>
+  <script>
+    const nav = document.querySelector('nav');
+    document.querySelector('.toggle').onclick = function () {
+      this.classList.toggle('active');
+      nav.classList.toggle('active');
+    }
+  </script>
+</body>
+
+</html>
