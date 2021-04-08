@@ -70,6 +70,7 @@ h3 {
 }
 
 .selection8 {
+  background-size: 100%;
   background-image: url(/img/traf-FJ7yKxzhzms-unsplash.jpg);
 }
 
@@ -77,7 +78,7 @@ h3 {
 .title2 {
   z-index: 1;
   position: relative;
-  width: 96vw;
+  max-width: 1600px;
   height: 96vh;
   border-radius: 10px;
   /* background: rgba(0, 0, 0, 0.1); */
@@ -87,10 +88,13 @@ h3 {
   align-items: center;
   /* backdrop-filter: blur(1px); */
 }
-
-.title2 {
-  width: 85vw;
+@media (max-width: 1920px) {
+  .title,
+  .title2{
+    width: calc(+(96vw - 20vw)*((100vw - 320px) / (1920px - 320px)));
+  }
 }
+
 
 .title2 img {
   filter: brightness(60%);
@@ -105,7 +109,7 @@ h3 {
 
 .title,
 .title2 .content {
-  width: 900px;
+padding: 50px;
   text-align: center;
 }
 
