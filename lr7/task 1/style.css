@@ -1,0 +1,17 @@
+.selection2 {
+    display: flex;
+    flex-direction: column;
+}
+.selection2 .title .h1{
+    position: absolute;
+    top: 10px;
+}
+.selection2 .title .product_wrapper {
+    position: relative;
+    width: 90%;
+    height: 70%;
+    background: rgba(255, 255, 255, 0.3);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 30px;
+}
