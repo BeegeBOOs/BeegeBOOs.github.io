@@ -91,12 +91,7 @@ h3 {
   align-items: none;
   max-height: 80vh;
 }
-@media (max-width: 1920px) {
-  .title,
-  .title2{
-    width: calc(+(96vw - 20vw)*((100vw - 320px) / (1920px - 320px)));
-  }
-}
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -201,4 +196,35 @@ h3 {
   font-size: 1.5em;
   color: #fff;
   font-weight: 300;
+}
+@media (max-width: 1080px) {
+  .grid-container {
+    display: inline;
+
+  }
+.title,
+.title2 h1 {
+  font-size: 1.2em;
+}
+
+.title,
+.title2 p {
+  font-size: 0.8em;
+}
+
+.title3 h1 {
+  font-size: 1.2em;
+}
+
+.title3 p {
+  font-size: 0.8em;
+}
+.grid_main_text {
+  grid-area: grid_main_text;
+  margin-top: 5%;
+  padding: 5px;
+}
+.grid_main_text_st {
+max-width: 100%;
+}
 }

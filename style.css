@@ -78,8 +78,7 @@ h3 {
 .title2 {
   z-index: 1;
   position: relative;
-  min-width: 800px;
-  max-width: 1600px;
+  max-width: 85vw;
   height: 96vh;
   border-radius: 10px;
   /* background: rgba(0, 0, 0, 0.1); */
