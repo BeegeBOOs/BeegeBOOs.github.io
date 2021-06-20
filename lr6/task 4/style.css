@@ -1,0 +1,146 @@
+.selection5 .wrap {
+  position: relative;
+  width: 1053px;
+  height: 530px;
+  background: #043aaf;
+}
+
+.selection5 .wrap__body {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.selection5 .wrap__image {
+  position: relative;
+  width: 330px;
+  height: 394px;
+  background-image: url("img/Big-Gream-burger.png.pagespeed.ce.QAOzmG03Mt.png");
+  background-size: 120%;
+  background-color: wheat;
+}
+
+.selection5 .wrap__text {
+  position: absolute;
+  bottom: 20px;
+  right: 5px;
+  width: 335px;
+  height: 212px;
+  background: black;
+}
+
+.selection5 .wrap__main {
+  width: 611px;
+  height: 394px;
+  background: white;
+}
+
+.selection5 .wrap__title {
+  margin-top: 40px;
+}
+
+.selection5 .main__body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-left: 10px;
+  width: 50%;
+  height: 60%;
+}
+
+.selection5 .wrap__content {
+  width: 90%;
+  height: 73px;
+  margin-bottom: 5px;
+}
+
+.selection5 .content__cost {
+  color: #172434;
+}
+
+.selection5 .content__rhomb {
+  margin: 10px 0;
+  display: inline-block;
+  transform: rotate(-45deg);
+  width: 8px;
+  height: 8px;
+  background: #172434;
+}
+
+.selection5 .content__footer {
+  display: inline-flex;
+  align-items: center;
+}
+
+.selection5 .content__footer::before {
+  content: "";
+  width: 100px;
+  height: 1px;
+  background: #172434;
+}
+
+.selection5 .content__footer::after {
+  content: "";
+  width: 100px;
+  height: 1px;
+  background: #172434;
+}
+
+.selection5 .wrap__botton {
+  position: absolute;
+  bottom: 45px;
+  right: 55px;
+  width: 175px;
+  height: 55px;
+}
+
+.selection5 .botton__content {
+  position: relative;
+  top: 26%;
+}
+
+.selection5 .text__content {
+  position: relative;
+  top: 40px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.selection5 .text__content p {
+  color: #043aaf;
+  display: inline-block;
+}
+
+.selection5 .text__content:first-of-type {
+  line-height: 38px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.selection5 .wrap__text,
+.selection5 .wrap__title,
+.selection5 .wrap__content,
+.selection5 .wrap__botton {
+  text-align: center;
+}
+
+.selection5 .wrap__title,
+.selection5 .content__title {
+  font-size: 20px;
+}
+
+.selection5 .botton__content,
+.selection5 .content__cost {
+  font-size: 19px;
+}
+
+.selection5 .wrap__text,
+.selection5 .wrap__botton {
+  background: black;
+}
+
+.selection5 .botton__content,
+.text__content {
+  color: white;
+}

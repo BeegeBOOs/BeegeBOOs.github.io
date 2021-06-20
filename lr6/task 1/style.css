@@ -1,0 +1,30 @@
+.selection2 .main {
+
+  width: 500px;
+  margin: 50px;
+  border: 3px solid #172434;
+  padding: 10px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.selection2 .main-img {
+  width: 100%;
+}
+
+.selection2 h2 {
+  text-align: center;
+  margin: 20px;
+}
+
+.selection2 p {
+  font-size: 14px;
+  line-height: 17px;
+  margin: 10px;
+  text-indent: 15px;
+}
+
+.selection2 .it {
+  font-style: italic;
+  color: brown;
+}
